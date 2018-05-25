@@ -9,6 +9,8 @@ const SignIn = () => {
     auth.signInWithPopup(provider)
   }
 
+  //Does this save.s
+
   return (
     <div className="SignIn">
       <header className="Header">

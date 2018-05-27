@@ -7,7 +7,7 @@ import SignIn from './SignIn'
 
 class App extends Component {
   state = {
-    uid: null,
+    uid: null
   }
 
   componentDidMount() {

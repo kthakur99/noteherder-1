@@ -19,8 +19,10 @@ class NoteForm extends Component {
     const note = newProps.notes[i] || this.blankNote()
 
     // Update state with that note
-    if (note) {
-      this.setState({ note.id !== this.state.noted.id})
+    if (note) {.push(notes/${note.id})
+    note.id = timesup
+      this.setState({note.id !== this.state.noted.id})
+      this.props.history
     }
   }
 
